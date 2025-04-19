@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Start of text fonts */
+
+body {
+font-family: "abril-display", serif;
+font-weight: 400;
+font-style: normal;
+}
+
+h1 {
+font-family: "ivypresto-display", serif;
+font-weight: 400;
+font-style: italic;
+}
+
+h2 {
+font-family: "ivypresto-display", serif;
+font-weight: 400;
+font-style: italic;
+}
+
+h3 {
+font-family: "ivypresto-display", serif;
+font-weight: 400;
+font-style: italic;
+}
+
+h4 {
+font-family: "ivypresto-display", serif;
+font-weight: 400;
+font-style: italic;
+}
+
+/* End of text fonts */
+
+/* Start of section containers */
+
+.section1-container {
+  background-color: #bfd7b5;
+  padding: 20px;
+  margin-bottom: 0px;
+}
+
+.section2-container {
+  background-color: #FFFBF1;
+  padding: 20px;
+  margin-bottom: 0px;
+}
+
+.section3-container {
+  background-color: #58765D;
+  padding: 20px;
+  margin-bottom: 0px;
+}
+
+.section4-container {
+  background-color: #FD96A9;
+  padding: 20px;
+  margin-bottom: 0px;
+}
