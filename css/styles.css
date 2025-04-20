@@ -25,6 +25,7 @@ h3 {
 font-family: "ivypresto-display", serif;
 font-weight: 400;
 font-style: italic;
+color: #58765d !important;
 }
 
 h4 {
@@ -43,6 +44,13 @@ font-style: italic;
   margin-bottom: 0px;
 }
 
+.section1-text-container {
+  background-color: #FFFBF1;
+  padding: 20px;
+  margin-bottom: 0px;
+  border-radius: 7px;
+}
+
 .section2-container {
   background-color: #FFFBF1;
   padding: 20px;
@@ -59,4 +67,16 @@ font-style: italic;
   background-color: #FD96A9;
   padding: 20px;
   margin-bottom: 0px;
+}
+
+/* End of section containers*/
+
+/* Button class */
+.custom-button {
+    background-color: #bfd7b5 !important;
+	color: #58765d; 
+	border-color: #bfd7b5 !important; 
+	padding: 12px 24px;
+	border-radius: 10px;
+	font-weight: 300;
 }
