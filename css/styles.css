@@ -50,8 +50,8 @@ color: #FFFBF1
 /* Start of section containers */
 .section-container-green {
   background-color: #58765D;
-  padding: 5vw; /* Responsive padding based on screen width */
-  margin-bottom: 0; /* '0' doesn't need 'px' */
+  padding: 5vw;
+  margin-bottom: 0;
 }
 
 .section-container-light {
@@ -59,11 +59,13 @@ color: #FFFBF1
   padding: 5vw;
   margin-bottom: 0;
 }
+/* End of section containers */
 
+/* Section 3 icons */
 .icon {
-  width: 30vw; /* 30% of viewport width */
-  max-width: 150px; /* So it doesn’t get too huge on large screens */
-  height: auto; /* Maintain aspect ratio */
+  width: 30vw;
+  max-width: 150px;
+  height: auto;
   object-fit: contain;
   margin-bottom: 1rem;
 }
