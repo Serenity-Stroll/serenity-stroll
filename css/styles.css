@@ -48,25 +48,22 @@ color: #FFFBF1
 /* End of text fonts */
 
 /* Start of section containers */
-
 .section-container-green {
   background-color: #58765D;
-  padding: 20px;
-  margin-bottom: 0px;
+  padding: 5vw; /* Responsive padding based on screen width */
+  margin-bottom: 0; /* '0' doesn't need 'px' */
 }
 
 .section-container-light {
   background-color: #FFFBF1;
-  padding: 20px;
-  margin-bottom: 0px;
+  padding: 5vw;
+  margin-bottom: 0;
 }
 
-/* End of section containers*/
-
-/* Section 3 icons */
 .icon {
-  width: 150px;
-  height: 150px;
+  width: 30vw; /* 30% of viewport width */
+  max-width: 150px; /* So it doesn’t get too huge on large screens */
+  height: auto; /* Maintain aspect ratio */
   object-fit: contain;
   margin-bottom: 1rem;
 }
