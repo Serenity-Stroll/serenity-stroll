@@ -50,22 +50,22 @@ color: #FFFBF1
 /* Start of section containers */
 .section-container-green {
   background-color: #58765D;
-  padding: 5vw;
-  margin-bottom: 0;
+  padding: 20px;
+  margin-bottom: 0px;
 }
 
 .section-container-light {
   background-color: #FFFBF1;
-  padding: 5vw;
-  margin-bottom: 0;
+  padding: 20px;
+  margin-bottom: 0px;
 }
-/* End of section containers */
+
+/* End of section containers*/
 
 /* Section 3 icons */
 .icon {
-  width: 30vw;
-  max-width: 150px;
-  height: auto;
+  width: 150px;
+  height: 150px;
   object-fit: contain;
   margin-bottom: 1rem;
 }
