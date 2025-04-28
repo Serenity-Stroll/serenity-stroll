@@ -7,18 +7,21 @@ body {
 font-family: "abril-display", serif;
 font-weight: 400;
 font-style: normal;
+color: #FFFBF1 !important;
 }
 
 h1 {
 font-family: "ivypresto-display", serif;
 font-weight: 400;
 font-style: italic;
+color: #FFFBF1 !important;
 }
 
 h2 {
 font-family: "ivypresto-display", serif;
 font-weight: 400;
 font-style: italic;
+color: #FFFBF1
 }
 
 h3 {
@@ -32,6 +35,14 @@ h4 {
 font-family: "ivypresto-display", serif;
 font-weight: 400;
 font-style: italic;
+color: #FFFBF1
+}
+
+h5 {
+font-family: "ivypresto-display", serif;
+font-weight: 400;
+font-style: italic;
+color: #FFFBF1
 }
 
 /* End of text fonts */
@@ -64,7 +75,7 @@ font-style: italic;
 }
 
 .section4-container {
-  background-color: #FD96A9;
+  background-color: #FFFBF1;
   padding: 20px;
   margin-bottom: 0px;
 }
@@ -79,4 +90,11 @@ font-style: italic;
 	padding: 12px 24px;
 	border-radius: 10px;
 	font-weight: 300;
+}
+
+.service-icon {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  margin-bottom: 1rem;
 }
